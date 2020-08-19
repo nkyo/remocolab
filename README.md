@@ -3,7 +3,7 @@ remocolab is a Python module to allow remote access to [Google Colaboratory](htt
 It also install [VirtualGL](https://www.virtualgl.org/) so that you can run OpenGL programs on a Google Colaboratory machine and see the screen on VNC client.
 It secures TurboVNC connection using SSH port forwarding.
 
-- [FAQ](https://github.com/demotomohiro/remocolab/wiki/Frequently-Asked-Questions)
+- [FAQ](https://github.com/nkyo/remocolab/wiki/Frequently-Asked-Questions)
 
 ## Requirements
 - You can use [Google Colaboratory](https://colab.research.google.com/)
@@ -19,14 +19,14 @@ It secures TurboVNC connection using SSH port forwarding.
 
 - SSH only:
 ```python3
-!pip install git+https://github.com/demotomohiro/remocolab.git
+!pip install git+https://github.com/nkyo/remocolab.git
 import remocolab
 remocolab.setupSSHD()
 ```
 
 - SSH and TurboVNC:
 ```python3
-!pip install git+https://github.com/demotomohiro/remocolab.git
+!pip install git+https://github.com/nkyo/remocolab.git
 import remocolab
 remocolab.setupVNC()
 ```
@@ -105,14 +105,14 @@ remocolab in kaggle branch works on [Kaggle](https://www.kaggle.com/).
 
 - SSH only:
 ```python3
-!pip install git+https://github.com/demotomohiro/remocolab.git@kaggle
+!pip install git+https://github.com/nkyo/remocolab.git@kaggle
 import remocolab
 remocolab.setupSSHD()
 ```
 
 - SSH and TurboVNC:
 ```python3
-!pip install git+https://github.com/demotomohiro/remocolab.git@kaggle
+!pip install git+https://github.com/nkyo/remocolab.git@kaggle
 import remocolab
 remocolab.setupVNC()
 ```
